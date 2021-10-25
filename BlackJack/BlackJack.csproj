@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D39C07B7-7291-43FB-A2E8-F3267397BBE5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BlackJack</RootNamespace>
+    <AssemblyName>BlackJack</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\joker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kare-papaz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kız.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-3-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-4-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-5-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-6-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-7-i.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-8-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-joker-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-kiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\kupa-papaz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-as.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-joker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-kiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\maca-papaz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-as.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-joker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-kiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sinek-papaz.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
